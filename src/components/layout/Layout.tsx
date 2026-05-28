@@ -1,15 +1,11 @@
-import { Outlet, Link } from "@tanstack/react-router";
+import { Outlet } from "@tanstack/react-router";
+import Navbar from "./Navbar";
 
 export default function Layout() {
   return (
     <div>
       <header>
-        <nav className="gap-4 flex">
-          <Link to="/">Home</Link>
-          <Link to="/auction">Auction Project</Link>
-          <Link to="/online-shop">Online Shop Project</Link>
-          <Link to="/social-media">Social Media Project</Link>
-        </nav>
+        <Navbar />
       </header>
       <main>
         <Outlet />
