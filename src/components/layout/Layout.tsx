@@ -7,7 +7,7 @@ export default function Layout() {
       <header>
         <Navbar />
       </header>
-      <main>
+      <main className="container mx-auto p-4">
         <Outlet />
       </main>
       <footer></footer>

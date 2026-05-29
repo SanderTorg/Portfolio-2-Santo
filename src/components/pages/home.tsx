@@ -1,9 +1,12 @@
 import Card from "../ui/Card";
 import heroImg from "../../assets/hero.png";
+import { motion, useScroll } from "motion/react";
 
 export default function HomePage() {
+  const { scrollYProgress } = useScroll();
+
   return (
-    <main>
+    <motion.section className="home-page" style={{ opacity: scrollYProgress }}>
       <h1>My Portfolio</h1>
 
       <section>
@@ -41,6 +44,6 @@ export default function HomePage() {
           .
         </p>
       </section>
-    </main>
+    </motion.section>
   );
 }
