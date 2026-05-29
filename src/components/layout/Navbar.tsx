@@ -8,7 +8,7 @@ const projectLinks = [
 
 export default function Navbar() {
   return (
-    <nav className="flex w-full justify-center gap-4 py-4">
+    <nav className="flex w-full justify-center gap-4 py-4  bg-black/40 ">
       <a href="/">Home</a>
       <Dropdown label="My Projects" items={projectLinks} />
     </nav>

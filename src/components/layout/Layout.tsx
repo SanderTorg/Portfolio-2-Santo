@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 export default function Layout() {
   return (
     <div>
-      <header>
+      <header className="header">
         <Navbar />
       </header>
       <main className="container mx-auto p-4">

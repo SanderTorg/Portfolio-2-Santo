@@ -4,18 +4,20 @@ interface CardProps {
   title: string;
   children: React.ReactNode;
   image?: string;
+  href?: string;
 }
 
-export default function Card({ title, image, children }: CardProps) {
+export default function Card({ title, image, children, href }: CardProps) {
   return (
-    <motion.div
-      whileHover={{ scale: 1.05 }}
-      whileTap={{ scale: 0.95 }}
-      className="card text-left cursor-pointer hover:shadow-lg transition-shadow duration-300 p-4 rounded-lg bg-white"
+    <motion.a
+      href={href}
+      className="card"
+      whileHover={{ y: -6 }}
+      transition={{ type: "spring", stiffness: 300, damping: 22 }}
     >
+      {image && <img src={image} alt={title} className="card-image" />}
       <h2>{title}</h2>
-      {image && <img src={image} alt={title} />}
       <p>{children}</p>
-    </motion.div>
+    </motion.a>
   );
 }
