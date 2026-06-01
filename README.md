@@ -1,68 +1,91 @@
 # Portfolio 2 - Sander Dorgan Torgersen
 
-This is my portfolio with my information and a showcase of my previous/ongoing projects.
+A personal portfolio showcasing my projects, skills, and background as a front-end developer. Built with React and animated with scroll-driven effects and 3D tilt interactions.
 
-## Links
+## Project
 
-[Portfolio Domain](https://portfolio-sandertorgersen.vercel.app/)
+**[Live Portfolio](https://portfolio-sandertorgersen.vercel.app/)**
 
-## Expanding the ESLint configuration
+**[GitHub Repo](https://github.com/SanderTorg/Portfolio-2-Santo)**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**[Report Document]()**
 
-```js
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
+### Featured Projects
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+**Social Media App**:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+- Live: [social-media-santo.vercel.app](https://social-media-santo.vercel.app/)
+- GitHub Repo: [SanderTorg/social-media-santo](https://github.com/SanderTorg/social-media-santo)
+
+**Online Shop**:
+
+- Live: [jsfw-2025-v1-sander-torgersen-jsf-c.vercel.app](https://jsfw-2025-v1-sander-torgersen-jsf-c.vercel.app/)
+- GitHub Repo: [NoroffFEU/jsfw-2025-v1-sander-torgersen-jsf-ca](https://github.com/NoroffFEU/jsfw-2025-v1-sander-torgersen-jsf-ca)
+
+**Auction House**:
+
+- Live: [myauctions.netlify.app](https://myauctions.netlify.app/)
+- GitHub Repo: [SanderTorg/sp-2-auction-santorg](https://github.com/SanderTorg/sp-2-auction-santorg)
+
+## Features
+
+- **Animated Background**: Four blurred gradient orbs drifting across the viewport.
+- **Scroll-driven Animations**: Sections fade and translate out as the user scrolls, using CSS `animation-timeline: view()`.
+- **3D Tilt Cards**: Project tiles respond to mouse movement with rotateX/rotateY and a glare overlay.
+- **Client-side Routing**: Individual project detail pages via TanStack Router.
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop devices.
+
+## Tech Stack
+
+- **Framework**: [React 19](https://react.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Routing**: [TanStack Router](https://tanstack.com/router)
+- **Animation**: [Motion](https://motion.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Deployment**: [Vercel](https://vercel.com/)
+
+## Getting Started
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/SanderTorg/Portfolio-2-Santo.git
+   cd Portfolio-2-Santo
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Development Server
+
+Start the development server:
+
+```bash
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The application will be available at `http://localhost:5173`.
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+### Building for Production
 
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs["recommended-typescript"],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+Build the project for deployment:
+
+```bash
+npm run build
 ```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Author
+
+**[Sander Dorgan Torgersen](https://github.com/SanderTorg)**
