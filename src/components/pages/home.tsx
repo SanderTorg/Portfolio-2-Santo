@@ -1,25 +1,28 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
-import Card from "../ui/Card";
-import heroImg from "../../assets/hero.png";
+import FeatureTile from "../ui/FeatureTile";
+import auctionHouseImg from "../../assets/auctionHouse.png";
+import socialMediaImg from "../../assets/social-media.png";
+import onlineShopImg from "../../assets/onlineShop.png";
+import profileImg from "../../assets/profil-bilde.jpg";
 
 const projects = [
   {
     title: "Social Media App",
     href: "/social-media",
-    image: heroImg,
+    image: socialMediaImg,
     desc: "A full-stack social platform with auth, posts, profiles and a follow system.",
   },
   {
     title: "Online Shop",
     href: "/online-shop",
-    image: heroImg,
+    image: onlineShopImg,
     desc: "E-commerce store with product listings, cart and checkout flow.",
   },
   {
     title: "Auction House",
     href: "/auction",
-    image: heroImg,
+    image: auctionHouseImg,
     desc: "Real-time auction platform with live bidding and listing management.",
   },
 ];
@@ -89,6 +92,22 @@ export default function HomePage() {
             Contact Me
           </a>
         </motion.div>
+
+        <motion.a
+          href="#projects"
+          className="scroll-indicator"
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.9, duration: 0.5 }}
+        >
+          <motion.span
+            animate={{ y: [0, 8, 0] }}
+            transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut" }}
+          >
+            ↓
+          </motion.span>
+          <span>Scroll</span>
+        </motion.a>
       </motion.section>
 
       <section id="projects" className="content-section">
@@ -105,13 +124,17 @@ export default function HomePage() {
             Things I've Built
           </motion.h2>
 
-          <div className="cards-grid">
-            {projects.map((p) => (
-              <motion.div key={p.href} variants={fadeUp}>
-                <Card title={p.title} image={p.image} href={p.href}>
-                  {p.desc}
-                </Card>
-              </motion.div>
+          <div className="tiles-list">
+            {projects.map((p, i) => (
+              <FeatureTile
+                key={p.href}
+                title={p.title}
+                image={p.image}
+                href={p.href}
+                index={i}
+              >
+                {p.desc}
+              </FeatureTile>
             ))}
           </div>
         </motion.div>
@@ -151,7 +174,7 @@ export default function HomePage() {
               },
             }}
           >
-            <img src={heroImg} alt="Santo" />
+            <img src={profileImg} alt="Sander Torgersen" />
           </motion.div>
         </motion.div>
       </section>
