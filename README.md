@@ -8,7 +8,9 @@ A personal portfolio showcasing my projects, skills, and background as a front-e
 
 **[GitHub Repo](https://github.com/SanderTorg/Portfolio-2-Santo)**
 
-**[Report Document]()**
+**[Report Document](https://docs.google.com/document/d/1QY5YOkHKkoWVlWqg2x-J-UiRhz152VwvxiwPj_u8KKs/edit?usp=sharing)**
+
+**[Video Presentation]()**
 
 ### Featured Projects
 
@@ -16,16 +18,19 @@ A personal portfolio showcasing my projects, skills, and background as a front-e
 
 - Live: [social-media-santo.vercel.app](https://social-media-santo.vercel.app/)
 - GitHub Repo: [SanderTorg/social-media-santo](https://github.com/SanderTorg/social-media-santo)
+- PR with all improvements: [Social Media PR](https://github.com/SanderTorg/social-media-santo/pull/1)
 
 **Online Shop**:
 
-- Live: [jsfw-2025-v1-sander-torgersen-jsf-c.vercel.app](https://jsfw-2025-v1-sander-torgersen-jsf-c.vercel.app/)
-- GitHub Repo: [NoroffFEU/jsfw-2025-v1-sander-torgersen-jsf-ca](https://github.com/NoroffFEU/jsfw-2025-v1-sander-torgersen-jsf-ca)
+- Live: [https://online-shop-jsf-santo.vercel.app/](https://online-shop-jsf-santo.vercel.app/)
+- GitHub Repo: [https://github.com/SanderTorg/online-shop-JSF-santo](https://github.com/SanderTorg/online-shop-JSF-santo)
+- PR with all improvements: [Online Shop PR]()
 
 **Auction House**:
 
 - Live: [myauctions.netlify.app](https://myauctions.netlify.app/)
 - GitHub Repo: [SanderTorg/sp-2-auction-santorg](https://github.com/SanderTorg/sp-2-auction-santorg)
+- PR with all improvements: [Auction House PR](https://github.com/SanderTorg/sp-2-auction-santorg/pull/27)
 
 ## Features
 
