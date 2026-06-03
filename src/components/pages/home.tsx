@@ -157,7 +157,7 @@ export default function HomePage() {
             </motion.h2>
             <motion.p className="about-body" variants={fadeUp}>
               I'm a frontend developer studying at Noroff, passionate about
-              building clean, performant UIs. I love working with React,
+              building clean, performant UIs. I love working with NextJS, React,
               TypeScript, and pushing the limits of what's possible in the
               browser.
             </motion.p>

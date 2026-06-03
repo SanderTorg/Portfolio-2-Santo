@@ -1,4 +1,7 @@
 import { Link } from "@tanstack/react-router";
+import onlineShopImg from "../../../assets/onlineShop.png";
+import onlineShopCheckoutImg from "../../../assets/onlineShop-checkout.png";
+import onlineShopSuccessImg from "../../../assets/onlineShop-success.png";
 
 const tech = [
   "React 19",
@@ -20,6 +23,20 @@ export default function OnlineShopPage() {
       <h1 className="hero-title">
         Online <span className="accent-text">Shop</span>
       </h1>
+
+      <div className="project-page__screenshots">
+        <img src={onlineShopImg} alt="Online Shop home" loading="lazy" />
+        <img
+          src={onlineShopCheckoutImg}
+          alt="Online Shop checkout"
+          loading="lazy"
+        />
+        <img
+          src={onlineShopSuccessImg}
+          alt="Online Shop order success"
+          loading="lazy"
+        />
+      </div>
 
       <p className="project-page__desc">
         An e-commerce platform built with Next.js and React 19, where users can
