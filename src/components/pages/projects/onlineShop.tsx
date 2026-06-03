@@ -64,7 +64,7 @@ export default function OnlineShopPage() {
 
       <div className="project-page__links">
         <a
-          href="https://jsfw-2025-v1-sander-torgersen-jsf-c.vercel.app/"
+          href="https://online-shop-jsf-santo.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary"
@@ -72,7 +72,7 @@ export default function OnlineShopPage() {
           Visit Live Site →
         </a>
         <a
-          href="https://github.com/NoroffFEU/jsfw-2025-v1-sander-torgersen-jsf-ca"
+          href="https://github.com/SanderTorg/online-shop-JSF-santo"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-ghost"

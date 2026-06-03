@@ -18,8 +18,16 @@ export default function SocialMediaPage() {
 
       <div className="project-page__screenshots">
         <img src={socialMediaImg} alt="Social Media App home" loading="lazy" />
-        <img src={socialMediaDetailsImg} alt="Social Media App post detail" loading="lazy" />
-        <img src={socialMediaProfileImg} alt="Social Media App profile" loading="lazy" />
+        <img
+          src={socialMediaDetailsImg}
+          alt="Social Media App post detail"
+          loading="lazy"
+        />
+        <img
+          src={socialMediaProfileImg}
+          alt="Social Media App profile"
+          loading="lazy"
+        />
       </div>
 
       <p className="project-page__desc">
