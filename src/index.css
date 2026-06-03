@@ -129,3 +129,20 @@ h2 {
 p {
   margin: 0;
 }
+
+a {
+  display: inline-block;
+  color: var(--text);
+  transition: color 0.2s;
+  &:hover {
+    color: var(--text-h);
+  }
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}

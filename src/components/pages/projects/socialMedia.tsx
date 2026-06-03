@@ -1,4 +1,7 @@
 import { Link } from "@tanstack/react-router";
+import socialMediaImg from "../../../assets/social-media.png";
+import socialMediaDetailsImg from "../../../assets/social-media-details.png";
+import socialMediaProfileImg from "../../../assets/social-media-profile.png";
 
 const tech = ["TypeScript", "Vite", "Express 5", "Service Worker"];
 
@@ -12,6 +15,20 @@ export default function SocialMediaPage() {
       <h1 className="hero-title">
         Social <span className="accent-text">Media App</span>
       </h1>
+
+      <div className="project-page__screenshots">
+        <img src={socialMediaImg} alt="Social Media App home" loading="lazy" />
+        <img
+          src={socialMediaDetailsImg}
+          alt="Social Media App post detail"
+          loading="lazy"
+        />
+        <img
+          src={socialMediaProfileImg}
+          alt="Social Media App profile"
+          loading="lazy"
+        />
+      </div>
 
       <p className="project-page__desc">
         A group project built with Vite and TypeScript, featuring a full

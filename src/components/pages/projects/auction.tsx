@@ -1,4 +1,7 @@
 import { Link } from "@tanstack/react-router";
+import auctionImg from "../../../assets/auctionHouse.png";
+import auctionListingsImg from "../../../assets/auctionHouse-listings.png";
+import auctionProfileImg from "../../../assets/auctionHouse-profile.png";
 
 const tech = ["TypeScript", "Vite", "Tailwind v4", "Vitest", "Playwright"];
 
@@ -12,6 +15,20 @@ export default function AuctionPage() {
       <h1 className="hero-title">
         Auction <span className="accent-text">House</span>
       </h1>
+
+      <div className="project-page__screenshots">
+        <img src={auctionImg} alt="Auction House home page" loading="lazy" />
+        <img
+          src={auctionListingsImg}
+          alt="Auction House listings"
+          loading="lazy"
+        />
+        <img
+          src={auctionProfileImg}
+          alt="Auction House profile"
+          loading="lazy"
+        />
+      </div>
 
       <p className="project-page__desc">
         A semester project — a fully featured online auction platform where
