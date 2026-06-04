@@ -24,7 +24,7 @@ A personal portfolio showcasing my projects, skills, and background as a front-e
 
 - Live: [https://online-shop-jsf-santo.vercel.app/](https://online-shop-jsf-santo.vercel.app/)
 - GitHub Repo: [https://github.com/SanderTorg/online-shop-JSF-santo](https://github.com/SanderTorg/online-shop-JSF-santo)
-- PR with all improvements: [Online Shop PR]()
+- PR with all improvements: [Online Shop PR](https://github.com/SanderTorg/online-shop-JSF-santo/pull/1)
 
 **Auction House**:
 
