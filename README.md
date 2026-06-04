@@ -10,7 +10,7 @@ A personal portfolio showcasing my projects, skills, and background as a front-e
 
 **[Report Document](https://docs.google.com/document/d/1QY5YOkHKkoWVlWqg2x-J-UiRhz152VwvxiwPj_u8KKs/edit?usp=sharing)**
 
-**[Video Presentation]()**
+**[Video Presentation](https://docs.google.com/videos/d/1DsLPKi-bM6R9MU3BI3aLn2Ao4Y6Y0OIUjUq-h-oIBsw/edit?usp=sharing)**
 
 ### Featured Projects
 
